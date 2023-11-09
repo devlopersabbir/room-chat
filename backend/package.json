@@ -1,0 +1,16 @@
+{
+  "name": "room-chat",
+  "description": "Room Chat",
+  "version": "0.0.2",
+  "author": {
+    "email": "devlopersabbir@gmail.com",
+    "name": "Sabbir Hossain Shuvo",
+    "url": "https://github.com/devlopersabbir"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "start": "node dist/server.js",
+    "build": "tsc"
+  }
+}
