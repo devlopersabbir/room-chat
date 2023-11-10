@@ -12,5 +12,8 @@
     "dev": "nodemon src/server.ts",
     "start": "node dist/server.js",
     "build": "tsc"
+  },
+  "dependencies": {
+    "ws": "^8.14.2"
   }
 }
